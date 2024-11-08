@@ -6,7 +6,7 @@ const About: React.FC = () => {
 		<Box textAlign="left" p={4}>
 			<Heading fontSize="2xl" mb={4} color="teal.500">Обо мне</Heading>
 			<Text mb={2}>
-				Опыт более 5&nbsp;лет.
+				Опыт более 6&nbsp;лет.
 			</Text>
 			<Text mb={2}>
 				Начал карьеру устроившись верстальщиком в&nbsp;стартап. Прошел путь от&nbsp;верстки
