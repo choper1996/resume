@@ -7,7 +7,7 @@ const Contacts: React.FC = () => {
       <Heading fontSize="2xl" mb={4} color="teal.500">Контакты</Heading>
 
       <Flex gap={4} justifyContent="space-between" flexWrap="wrap">
-	      <Link href="mailto:m.d.pakhomov@yandex.ru">
+	      <Link href="mailto:m.d.pakhomov@yandex.ru?subject=Заинтересовало ваше резюме">
 		      <Flex align="center" mb={2}>
 			      <Icon boxSize={5} mr={2} color="teal.500">
 				      <FaEnvelope />
