@@ -1,8 +1,7 @@
 import { Box, Heading, Badge, SimpleGrid } from '@chakra-ui/react';
+import { skills } from "./config.ts"
 
 const Skills: React.FC = () => {
-    const skills = ['JavaScript', 'TypeScript', 'React', 'React native', 'Effector', 'REST', 'GraphQL'];
-
     return (
       <Box p={4} color="teal.500">
           <Heading fontSize="2xl" textAlign="left" mb={4}>Навыки</Heading>

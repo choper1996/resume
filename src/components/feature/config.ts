@@ -59,3 +59,14 @@ export const experience: TExperience[] = [
 		],
 	},
 ]
+
+export const skills =
+	[
+		'JavaScript',
+		'TypeScript',
+		'React',
+		'React Native',
+		'Effector',
+		'REST',
+		'GraphQL'
+	];
