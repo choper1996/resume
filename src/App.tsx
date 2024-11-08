@@ -10,7 +10,7 @@ import './App.css'
 function App() {
 
   return (
-  <Box maxW="800px" w="auto" p={{ base: 0, md: 4 }} border="1px solid red">
+  <Box maxW="800px" w="auto" p={{ base: 0, md: 4 }}>
     <Header />
     <About />
     <Experience />
