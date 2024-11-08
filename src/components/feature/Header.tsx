@@ -15,7 +15,7 @@ const Header: React.FC = () => {
 				mb={{ base: 4, md: 0 }}
 			/>
 			<Flex py={6} direction="column" justifyContent="center">
-				<Heading fontSize="4xl" color="teal.500" textAlign={{ base: "center", md: "left" }}>Пахомов Максим</Heading>
+				<Heading fontSize="4xl" color="teal.500" textAlign={{ base: "center", md: "left" }}>Максим Пахомов</Heading>
 				<Text fontSize="xl" color="gray.500" textAlign={{ base: "center", md: "left" }}>Frontend Developer</Text>
 			</Flex>
 		</Flex>
