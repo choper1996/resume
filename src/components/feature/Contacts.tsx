@@ -1,7 +1,14 @@
 import { Box, Heading, Text, Flex, Icon, Link } from '@chakra-ui/react';
 import { FaEnvelope, FaPhone, FaTelegram } from 'react-icons/fa';
+import { useTheme } from "next-themes";
+
+
 
 const Contacts: React.FC = () => {
+	const { theme } = useTheme();
+
+	console.log("THEME!! :", theme)
+
   return (
     <Box p={4} textAlign="left">
       <Heading fontSize="2xl" mb={4} color="teal.500">Контакты</Heading>
@@ -12,7 +19,7 @@ const Contacts: React.FC = () => {
 			      <Icon boxSize={5} mr={2} color="teal.500">
 				      <FaEnvelope />
 			      </Icon>
-			      <Text color="white">m.d.pakhomov@yandex.ru</Text>
+			      <Text>m.d.pakhomov@yandex.ru</Text>
 		      </Flex>
 	      </Link>
 
@@ -21,16 +28,16 @@ const Contacts: React.FC = () => {
 			      <Icon boxSize={5} mr={2} color="teal.500">
 				      <FaTelegram />
 			      </Icon>
-			      <Text color="white">@PakhomovMaksim</Text>
+			      <Text>@PakhomovMaksim</Text>
 		      </Flex>
 	      </Link>
 
-        <Link href="tel:+79538296272" colorScheme="white">
+        <Link href="tel:+79538296272">
 	        <Flex align="center" mb={2}>
 		        <Icon boxSize={5} mr={2} color="teal.500">
 			        <FaPhone />
 		        </Icon>
-		        <Text color="white">+79538296272</Text>
+		        <Text>+79538296272</Text>
 	        </Flex>
         </Link>
 
