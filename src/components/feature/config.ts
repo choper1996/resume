@@ -68,4 +68,5 @@ export const skills = [
 	'Effector',
 	'REST',
 	'GraphQL',
+	'Jest',
 ]
